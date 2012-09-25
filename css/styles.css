@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'bariol_boldbold';
+    src: url('bariol_bold-webfont.eot');
+    src: url('bariol_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bariol_bold-webfont.woff') format('woff'),
+         url('bariol_bold-webfont.ttf') format('truetype'),
+         url('bariol_bold-webfont.svg#bariol_boldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bariol_lightlight';
+    src: url('bariol_light-webfont.eot');
+    src: url('bariol_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bariol_light-webfont.woff') format('woff'),
+         url('bariol_light-webfont.ttf') format('truetype'),
+         url('bariol_light-webfont.svg#bariol_lightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bariol_regularregular';
+    src: url('bariol_regular-webfont.eot');
+    src: url('bariol_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bariol_regular-webfont.woff') format('woff'),
+         url('bariol_regular-webfont.ttf') format('truetype'),
+         url('bariol_regular-webfont.svg#bariol_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bariol_thinregular';
+    src: url('bariol_thin-webfont.eot');
+    src: url('bariol_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bariol_thin-webfont.woff') format('woff'),
+         url('bariol_thin-webfont.ttf') format('truetype'),
+         url('bariol_thin-webfont.svg#bariol_thinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+	body {
+		font-family: bariol_regularregular;
+		background-color: #ff2828;
+	}
+
+	header {
+		font-family: bariol_boldbold;
+		letter-spacing: 0.07em;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	nav ul {
+		text-align: right;
+	}
+
+	nav li {
+	font-size: 71px;
+	line-height: 71px;
+	padding-left: 60px;
+	display: inline-block;
+	}
+
+	section {
+		height: 500px;
+		background-color: blue;
+	}
+
+.fixedwrapper{
+	position:	fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	background-color: white; 
+	}
+
+.logo {
+	font-size: 27px;
+}	
+
+.logobig {
+	font-size: 32px;
+}
+
+.logored {
+	color: #ff2828;
+}
+
+.topmargin {
+	margin-top: 121px;
+}
+
+
+
+
+/* ============================= */
+/* ! Layout for smallish version   */
+/* ============================= */
+
+@media only screen and (max-width: 1140px) {
+
+
+	.fixedwrapper{
+		position: relative;
+	}
+
+	.topmargin{
+		margin-top: 0;
+	}
+}
+
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}
