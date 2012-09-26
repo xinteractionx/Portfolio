@@ -114,6 +114,33 @@
 		}
 
 
+	h1 { 
+		font-size: 32px;
+		font-family: bariol_boldbold;
+		line-height: 32px;
+		font-variant: uppercase;
+	}
+
+
+	h2 {
+		font-size: 26px;
+		font-family: bariol_regularregular;
+		line-height: 28px;
+		font-variant: uppercase;
+	}
+
+	h6 {
+		margin-top: 25px;
+		font-family: bariol_regularregular;
+		font-size: 18px;
+		line-height: 24px;
+	}	
+
+	p {
+		font-size: 26px;
+		font-family: bariol_regularregular;
+		line-height: 32px;
+	}
 
 .fixedwrapper{
 	position:	fixed;
@@ -139,12 +166,25 @@
 	margin-top: 121px;
 }
 
+
 .words {
 	background-color: #f0f0f0;
 }
 
 .words div {
 	color: black;
+}
+
+.line {
+	display: block;
+	border-bottom: 3px solid black;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.images {
+	background-color: green;
+	height: 525px;
 }
 
 .fixedfooter {
@@ -159,6 +199,7 @@
 .floatright {
 	float: right;
 }
+
 
 /* ============================= */
 /* ! Layout for smallish version   */
