@@ -167,14 +167,13 @@
 }
 
 
-.words {
+.work {
 	background-color: #f0f0f0;
 }
 
-.words div {
+.work  div {
 	color: black;
 }
-
 .line {
 	display: block;
 	border-bottom: 3px solid black;
