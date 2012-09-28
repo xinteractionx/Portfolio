@@ -89,19 +89,13 @@
 		font-family: bariol_regularregular;
 		font-size: 56px;
 		line-height: 65px;
-		padding-top: 300px;
-		padding-bottom: 300px;
 	}
 
-	.topmargin section {
-		padding-top: 0px;
+	.topmargin.container {
+		padding-top: 100px;
 	}
 
-	section div {
-		margin-top: 100px;
-		color: white;
-	}
-
+	
 	a {
 		text-decoration: none;
 		color: black;
@@ -142,6 +136,25 @@
 		line-height: 32px;
 	}
 
+.container {
+		padding-top: 300px;
+		padding-bottom: 300px;
+}
+
+
+#work section div {
+		margin-top: 100px;
+	}
+
+#worknav {
+	height: 250px;
+	background-color: black;
+}
+
+#worknav li {
+	padding: 0;
+}
+
 .fixedwrapper{
 	position:	fixed;
 	top: 0;
@@ -149,6 +162,10 @@
 	left: 0;
 	background-color: white; 
 	}
+
+.fixedwrapper .container, .fixedfooter .container {
+	padding: 0;
+}
 
 .logo {
 	font-size: 27px;
@@ -166,6 +183,12 @@
 	margin-top: 121px;
 }
 
+#home p, #who p {
+	color: white;
+	font-size: 56px;
+	line-height: 65px;
+	margin-bottom: 65px;
+} 
 
 .work {
 	background-color: #f0f0f0;

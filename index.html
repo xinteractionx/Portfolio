@@ -22,41 +22,56 @@
 </head>
 
 <body>
-	<div class="fixedwrapper">
+	<div id="mainnav" class="fixedwrapper">
 		<div class="container">
 			<header class="row">
 				<div class="twocol logo">
-					<span class="logobig">ANDREAS</span><br>FREY
-					<span class="logored">SANG</span>
+					<a href="#home">
+						<span class="logobig">ANDREAS</span><br>FREY
+						<span class="logored">SANG</span>
+					</a>
 				</div>
 				<nav class="tencol last">
 					<ul>
-						<li>WORK<span class="selected">!</span></li>
-						<li>WORDS<span>:</span></li>
-						<li>WHO<span>?</span></li>
+						<li><a href="#work">WORK<span class="selected">!</span></a></li>
+						<li><a href="#words">WORDS<span>:</span></a></li>
+						<li><a href="#who">WHO<span>?</span></a></li>
 					</ul>
 				</nav>
 			</header>
 		</div>
 	</div>
 
-	<div class="container topmargin">
+
+
+	<div id="home" class="container topmargin">
 		<section class="row">
-			<div>Hi there, and welcome to my personal portfolio page. It’s lovely to have another visitor over here!<br><br> 
-			My name is Andreas Frey Sang and I’m a young Interaction Designer based in Bern, Switzerland. 
-			<br><br> 
-			I don’t wanna bore you so have a look/scroll around and send me a <a href="mailto:freysang@gmail.com">message</a> if you want to.
-			</div>
+			<p>Hi there, and welcome to my personal portfolio page. It’s lovely to have another visitor over here!</p>
+			<p>My name is Andreas Frey Sang and I’m a young Interaction Designer based in Bern, Switzerland.</p> 
+			<p> 
+			I don’t wanna bore you so have a look/scroll around and send me a <a href="mailto:freysang@gmail.com">message</a> if you want to.</p> 
 		</section>
 	</div>
 
-	<div class="container work">
+
+
+	<div id="work" class="container work">
+		<nav id="worknav" class="row">
+			<ul class="twelvecol">
+				<li><img src="images/test_image_worknav.png"></li>
+				<li><img src="images/test_image_worknav.png"></li>
+				<li><img src="images/test_image_worknav.png"></li>
+				<li><img src="images/test_image_worknav.png"></li>
+
+			</ul>
+			<hr class="line"/>
+		</nav>
 		<section class="row">
 			<div class="ninecol images"></div>
 				<div class="threecol last">
 					<h1>VLP-ASPAN<br>WEBSITE</h1>
-					<h2>DESIGN & CONCEPT-COLLABORATION</h2>
-					<span class="line"></span>
+					<h2>DESIGN &amp; CONCEPT-COLLABORATION</h2>
+					<hr class="line"/>
 					<p>Website designed for the «Swiss Union of Spatial Planning». Collaboration with conception of certain features: for example landingpage and filtering functions.</p>
 					<h6>This work was done under employment by MediaparX AG</h6>
 			</div>
@@ -65,8 +80,22 @@
 
 
 
+	<div id="who" class="container">
+		<section class="row">
+			<div>
+				<p>This is my personal portfolio page. My name is Andreas Frey Sang and I am a 22 year old Interaction Designer from Bern, Switzerland.</p>
+				<p>I am currently studying Interaction Design at the School of Design in Bern and working at MediaparX AG in Bern.</p>
+				<p>I have a great passion for Interaction Design – this job is more than just pixel pushing and vector beziers – yeah i really sweat blood during projects. We humans are constantly interacting in so many aspects of our life. It’s up to us designers to create Interactive Experiences which are adequete to their application.</p> 
+				<p>For more Information about me send me an E-Mail or contact me via Facebook, Xing, LinkedIn or Twitter. I would love to hear from you!</p> 
 
-<div class="fixedfooter">
+			</div>
+		</section>
+	</div>
+
+
+
+
+<div id="footer" class="fixedfooter">
 	<div class="container">
 		<footer class="row">
 			<span>© COPYRIGHT 2012 | ANDREAS FREY SANG<span> 		
