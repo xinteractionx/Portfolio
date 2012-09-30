@@ -164,11 +164,13 @@
 	}
 
 .fixedwrapper .container, .fixedfooter .container {
-	padding: 0;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
 .logo {
 	font-size: 27px;
+	float: left;
 }	
 
 .logobig {
