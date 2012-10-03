@@ -105,6 +105,7 @@ img {
 	-webkit-text-size-adjust: none;
 	}
 	
+
 	.row, body, .container {
 	width: 100%;
 	min-width: 0;
@@ -113,6 +114,8 @@ img {
 	padding-left: 0px;
 	padding-right: 0px;
 	}
+
+
 	
 	.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
 	width: auto;
