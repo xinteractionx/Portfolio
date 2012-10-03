@@ -70,11 +70,12 @@
 		font-family: bariol_boldbold;
 		letter-spacing: 0.07em;
 		padding-top: 25px;
-		padding-bottom: 25px;
+		padding-bottom: 12px;
 	}
 
 	nav ul {
 		text-align: right;
+		margin-top: -8px;
 	}
 
 	nav li {
@@ -82,6 +83,7 @@
 	line-height: 71px;
 	padding-left: 60px;
 	display: inline-block;
+
 	}
 
 	section {
@@ -100,6 +102,20 @@
 		text-decoration: none;
 		color: black;
 	}
+
+	#mainnav a:hover {
+		text-decoration: none;
+		color: red;
+		-webkit-transition: color .18s linear;
+		-moz-transition: color .18s linear;
+		-o-transition: color .18s linear;
+		transition: color .18s linear;
+		}
+
+
+	a:hover {
+		text-decoration: underline;
+		}
 
 	footer {
 		padding-top: 15px;
@@ -161,6 +177,7 @@
 	right: 0;
 	left: 0;
 	background-color: white; 
+	line-height: 27px;
 	}
 
 .fixedwrapper .container, .fixedfooter .container {
