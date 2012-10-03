@@ -18,6 +18,20 @@
 	
 	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
 	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+
+	<!--Responsive Measure Javascript file-->
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.rm.js"></script>
+	<script type="text/javascript">
+	
+	$('home').responsiveMeasure({
+	// Variables you can pass in:
+	idealLineLength: (defaults to 50),
+	minimumFontSize: (defaults to 16),
+	maximumFontSize: (defaults to 300),
+	ratio: (defaults to 4/3)
+	});
+	</script>
 	
 </head>
 
