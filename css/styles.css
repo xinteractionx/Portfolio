@@ -64,6 +64,7 @@
 	body {
 		font-family: bariol_regularregular;
 		background-color: #ff2828;
+		font-size: 100%;
 	}
 
 	header {
@@ -89,8 +90,8 @@
 	section {
 		height: auto;
 		font-family: bariol_regularregular;
-		font-size: 56px;
-		line-height: 65px;
+		font-size: 3.5rem;
+		line-height: 4rem;
 	}
 
 	.topmargin.container {
@@ -120,23 +121,23 @@
 	footer {
 		padding-top: 15px;
 		font-family: bariol_regularregular;
-		font-size: 18px;
+		font-size: 1.1rem;
 		}
 
 
 	h1 { 
-		font-size: 32px;
+		font-size: 2rem;
 		font-family: bariol_boldbold;
-		line-height: 32px;
+		line-height: 2rem;
 		text-transform: uppercase;
 		font-weight: normal;
 	}
 
 
 	h2 {
-		font-size: 26px;
+		font-size: 1.6rem;
 		font-family: bariol_regularregular;
-		line-height: 28px;
+		line-height: 1.8rem;
 		text-transform: uppercase;
 		font-weight: normal;
 
@@ -145,14 +146,14 @@
 	h6 {
 		margin-top: 25px;
 		font-family: bariol_regularregular;
-		font-size: 18px;
-		line-height: 24px;
+		font-size: 1.1rem;
+		line-height: 1.38rem;
 	}	
 
 	p {
-		font-size: 26px;
+		font-size: 1.6rem;
 		font-family: bariol_regularregular;
-		line-height: 32px;
+		line-height: 2rem;
 	}
 
 .container {
@@ -207,8 +208,8 @@
 
 #home p, #who p {
 	color: white;
-	font-size: 56px;
-	line-height: 65px;
+	font-size: 3.5rem;
+	line-height: 4rem;
 	margin-bottom: 65px;
 } 
 

@@ -19,23 +19,31 @@
 	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
 	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
 
-	<!--Responsive Measure Javascript file-->
-	<script src="js/jquery.js"></script>
-	<script src="js/jquery.rm.js"></script>
-	<script type="text/javascript">
-	
-	$('home').responsiveMeasure({
-	// Variables you can pass in:
-	idealLineLength: (defaults to 50),
-	minimumFontSize: (defaults to 16),
-	maximumFontSize: (defaults to 300),
-	ratio: (defaults to 4/3)
-	});
-	</script>
-	
+
+
+
+
 </head>
 
 <body>
+
+
+
+	<!--Responsive Measure Javascript file-->
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script src="js/jquery.rm.js"></script>
+	<script type="text/javascript">
+	
+	$('#row').responsiveMeasure({
+	idealLineLength: 66,
+	minimumFontSize: 16,
+	maximumFontSize: 300,
+	ratio: 4/3
+	});
+	</script>
+
+
+
 	<div id="mainnav" class="fixedwrapper">
 		<div class="container">
 			<header class="row">
@@ -118,8 +126,6 @@
 		</footer>
 	</div>
 </div>
-
-
 
 
 </body>
