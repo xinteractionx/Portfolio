@@ -29,19 +29,6 @@
 
 
 
-	<!--Responsive Measure Javascript file-->
-	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-	<script src="js/jquery.rm.js"></script>
-	<script type="text/javascript">
-	
-	$('#row').responsiveMeasure({
-	idealLineLength: 66,
-	minimumFontSize: 16,
-	maximumFontSize: 300,
-	ratio: 4/3
-	});
-	</script>
-
 
 
 	<div id="mainnav" class="fixedwrapper">
@@ -66,8 +53,34 @@
 
 
 
+	<!--Responsive Measure Javascript file-->
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script src="js/jquery.rm.js"></script>
+	<script type="text/javascript">
+	
+	$(document).ready(function() {
+
+
+	$('#armone').responsiveMeasure({
+	idealLineLength: 48,
+	minimumFontSize: 18,
+	maximumFontSize: 300,
+	ratio: 4/3
+	});
+
+
+
+
+	});
+
+	</script>
+
+
+
+
+
 	<div id="home" class="container topmargin">
-		<section class="row">
+		<section id="armone" class="row">
 			<p>Hi there, and welcome to my personal portfolio page. It’s lovely to have another visitor over here!</p>
 			<p>My name is Andreas Frey Sang and I’m a young Interaction Designer based in Bern, Switzerland.</p> 
 			<p> 
@@ -90,7 +103,7 @@
 		</nav>
 		<section class="row">
 			<div class="ninecol images"></div>
-				<div class="threecol last">
+				<div id="armtwo" class="threecol last">
 					<h1>VLP-ASPAN<br>WEBSITE</h1>
 					<h2>DESIGN &amp; CONCEPT-COLLABORATION</h2>
 					<hr class="line"/>
@@ -104,7 +117,7 @@
 
 	<div id="who" class="container">
 		<section class="row">
-			<div>
+			<div id="armone">
 				<p>This is my personal portfolio page. My name is Andreas Frey Sang and I am a 22 year old Interaction Designer from Bern, Switzerland.</p>
 				<p>I am currently studying Interaction Design at the School of Design in Bern and working at MediaparX AG in Bern.</p>
 				<p>I have a great passion for <a href="http://en.wikipedia.org/wiki/Interaction_design" target="blank">Interaction Design</a> – this job is more than just pixel pushing and vector beziers – yeah i really sweat blood during projects. 
