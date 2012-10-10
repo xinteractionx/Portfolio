@@ -69,9 +69,8 @@
 
 	header {
 		font-family: bariol_boldbold;
-		letter-spacing: 0.02rem;
-		padding-top: 25px;
-		padding-bottom: 12px;
+		padding-top: 18px;
+		padding-bottom: 11px;
 	}
 
 	nav ul {
@@ -83,7 +82,6 @@
 	line-height: 71px;
 	padding-left: 60px;
 	display: inline-block;
-
 	}
 	
 	
@@ -187,8 +185,11 @@
 }
 
 .logo {
+	padding-top: 8px;
 	font-size: 27px;
 	float: left;
+	display: inline-block;
+	letter-spacing: 0.05em;
 }	
 
 .logobig {
@@ -249,11 +250,11 @@
 
 
 	.fixedwrapper{
-		position: relative;
+		position: fixed;
 	}
 
 	.topmargin{
-		margin-top: 0;
+		padding-top: 100px;
 	}
 }
 
@@ -268,19 +269,6 @@
 		
 	}
 
-
-	nav ul {
-		padding-top: 20px;
-		text-align: right;
-	}
-
-	nav li {
-	font-size: 18px;
-	line-height: 26px;
-	padding-left: 10px;
-	display: inline-block;
-
-	}
 
 
 }
