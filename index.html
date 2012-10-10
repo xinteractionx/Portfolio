@@ -20,6 +20,26 @@
 	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
 
 
+	<!--Responsive Measure Javascript file-->
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script src="js/jquery.rm.js"></script>
+	<script type="text/javascript">
+	
+	$(document).ready(function() {
+
+
+	$('.armone').responsiveMeasure({
+	idealLineLength: 48,
+	minimumFontSize: 18,
+	maximumFontSize: 300,
+	ratio: 4/3
+	});
+
+
+	});
+
+	</script>
+
 
 
 
@@ -53,38 +73,14 @@
 
 
 
-	<!--Responsive Measure Javascript file-->
-	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-	<script src="js/jquery.rm.js"></script>
-	<script type="text/javascript">
-	
-	$(document).ready(function() {
-
-
-	$('#armone').responsiveMeasure({
-	idealLineLength: 48,
-	minimumFontSize: 18,
-	maximumFontSize: 300,
-	ratio: 4/3
-	});
-
-
-
-
-	});
-
-	</script>
-
-
-
-
-
 	<div id="home" class="container topmargin">
-		<section id="armone" class="row">
+		<section class="row">
+			<div class="twelvecol armone">
 			<p>Hi there, and welcome to my personal portfolio page. It’s lovely to have another visitor over here!</p>
 			<p>My name is Andreas Frey Sang and I’m a young Interaction Designer based in Bern, Switzerland.</p> 
 			<p> 
 			I don’t wanna bore you so have a look/scroll around and send me a <a href="mailto:freysang@gmail.com" target="blank">message</a> if you want to.</p> 
+			</div>
 		</section>
 	</div>
 
@@ -103,7 +99,7 @@
 		</nav>
 		<section class="row">
 			<div class="ninecol images"></div>
-				<div id="armtwo" class="threecol last">
+				<div class="threecol last">
 					<h1>VLP-ASPAN<br>WEBSITE</h1>
 					<h2>DESIGN &amp; CONCEPT-COLLABORATION</h2>
 					<hr class="line"/>
@@ -117,14 +113,13 @@
 
 	<div id="who" class="container">
 		<section class="row">
-			<div id="armone">
+			<div class="twelvecol">
 				<p>This is my personal portfolio page. My name is Andreas Frey Sang and I am a 22 year old Interaction Designer from Bern, Switzerland.</p>
 				<p>I am currently studying Interaction Design at the School of Design in Bern and working at MediaparX AG in Bern.</p>
 				<p>I have a great passion for <a href="http://en.wikipedia.org/wiki/Interaction_design" target="blank">Interaction Design</a> – this job is more than just pixel pushing and vector beziers – yeah i really sweat blood during projects. 
 				<p>We humans are constantly interacting in so many aspects of our life. It’s up to us designers to create Interactive Experiences which are adequete to their application.</p> 
-				<p>For more Information about me send me an <a href="mailto:freysang@gmail.com" target="blank">E-Mail</a> or contact me via <a href="http://www.facebook.com/solothurn" target="_blank">Facebook</a>, <a href="https://www.xing.com/profile/Andreas_FreySang" target="_blank">Xing</a>, <a href="http://www.linkedin.com/pub/andreas-frey-sang/33/b15/82" target="blank">LinkedIn</a> or follow me on <a href="https://twitter.com/xinteractionx" target="blank">Twitter</a>. I would love to hear from you!</p> 
-
-			</div>
+				<p>For more Information about me send me an <a href="mailto:freysang@gmail.com" target="blank">E-Mail</a> or contact me via <a href="http://www.facebook.com/solothurn" target="_blank">Facebook</a>, <a href="https://www.xing.com/profile/Andreas_FreySang" target="_blank">Xing</a>, <a href="http://www.linkedin.com/pub/andreas-frey-sang/33/b15/82" target="blank">LinkedIn</a> or follow me on <a href="https://twitter.com/xinteractionx" target="blank">Twitter</a>. I would love <br>to hear from you!</p>
+				</div>
 		</section>
 	</div>
 
