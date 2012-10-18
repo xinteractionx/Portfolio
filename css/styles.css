@@ -117,7 +117,7 @@
 	footer {
 		padding-top: 15px;
 		font-family: bariol_regularregular;
-		font-size: 0.6rem;
+		font-size: 18px
 		}
 
 
@@ -188,7 +188,6 @@
 	padding-top: 8px;
 	font-size: 27px;
 	float: left;
-	display: inline-block;
 	letter-spacing: 0.05em;
 }	
 
@@ -237,6 +236,15 @@
 	height: 50px;
 }
 
+.fixedfooter img {
+
+	width: 27px;
+	margin-top: -2px;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+}
+
 .floatright {
 	float: right;
 }
@@ -256,6 +264,30 @@
 	.topmargin{
 		padding-top: 100px;
 	}
+}
+
+/* ========================================================== */
+/* ! Layout for smallisher version (Mainly Navigation)   */
+/* ========================================================== */
+
+@media only screen and (max-width: 1010px) {
+
+
+	.fixedwrapper{
+		position: fixed;
+	}
+
+	.topmargin{
+		padding-top: 100px;
+	}
+
+	nav li {
+	font-size: 71px;
+	line-height: 71px;
+	padding-left: auto;
+	display: inline-block;
+	}
+
 }
 
 
