@@ -25,18 +25,6 @@
 	<script src="js/jquery.rm.js"></script>
 	<script type="text/javascript">
 	
--	$(document).ready(function() {
- 
- 
--	$('.armone').responsiveMeasure({
--	idealLineLength: 48,
--	minimumFontSize: 18,
--	maximumFontSize: 300,
--	ratio: 4/3
--	});
--
--
--	});
 
 
 	</script>
@@ -46,7 +34,11 @@
 
 </head>
 
-<body>
+<body class="responsiveMeasure">
+
+
+
+
 
 	<div id="mainnav" class="fixedwrapper">
 		<div class="container">
@@ -137,6 +129,23 @@
 		</footer>
 	</div>
 </div>
+
+<script>
+	$('.responsiveMeasure').each(function(){
+		var element = $(this);
+		var baseSize = Number(String(element.css('font-size')).replace('px', ''));
+		var factor = 3000;
+
+		console.info(baseSize);
+		
+		void new (function(){
+			console.debug(element);
+				console.debug(($('body').width()/factor*baseSize)+'px');
+				element.css({'font-size': ($('body').width()/factor*baseSize)+'px'});
+
+		})();
+	});
+</script>
 
 
 </body>
