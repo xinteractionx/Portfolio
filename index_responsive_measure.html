@@ -22,9 +22,23 @@
 
 	<!--Responsive Measure Javascript file-->
 	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script src="js/jquery.rm.js"></script>
+	<script type="text/javascript">
+	
+	$(document).ready(function() {
+ 
+ 	$('.armone').responsiveMeasure({
+	idealLineLength: 48,
+	minimumFontSize: 18,
+	maximumFontSize: 300,
+	ratio: 4/3
+	});
 
 
+	});
 
+
+	</script>
 
 
 
@@ -46,6 +60,7 @@
 					<nav class="last">
 						<ul>
 							<li><a href="#work">WORK<span>!</span></a></li>
+							<li><a href="#words">WORDS<span>:</span></a></li>
 							<li><a href="#who">WHO<span>?</span></a></li>
 						</ul>
 					</nav>
