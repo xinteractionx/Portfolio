@@ -336,27 +336,51 @@
 
 
 
-.logo {
+	.logo {
 	padding-top: 8px;
 	font-size: 27px;
 	float: left;
 	letter-spacing: 0.05em;
-}	
+	}	
 
 	nav li {
 	padding-top: 37px;
 	padding-left: 22px;
 	font-size: 27px;
 	line-height: 27px;
-	float: right;
 	display: inline-block;
-}
+	}
 	
 	nav li:first-child  {
 		padding-left: none;
 	}
 
 }
+
+@media handheld, only screen and (max-width: 380px) {
+
+	nav li {
+	padding-top: 37px;
+	padding-left: 10px;
+	font-size: 27px;
+	line-height: 27px;
+	display: inline-block;
+	}
+
+}
+
+	@media handheld, only screen and (max-width: 360px) {
+
+	nav li {
+	padding-top: 37px;
+	padding-left: 10px;
+	font-size: 20px;
+	line-height: 27px;
+	display: inline-block;
+	}
+
+}
+
 
 
 
