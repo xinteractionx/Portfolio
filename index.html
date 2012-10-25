@@ -38,11 +38,18 @@
 	});
 	</script>
 
+
+	<!--Smooth scrolling Javascript file-->
+	<script type="text/javascript" src="js/jquery.smooth-scroll.min.js"></script>
+
 <script type="text/javascript">
 
-$(document).ready(function() {
+	$(document).ready(function() {
 
-$('#home').css('min-height', $(window).height());
+		$('#mainnav a').smoothScroll({speed: 50000});
+		$('#mainnav a').first().smoothScroll({offset: -250, speed: 50000});
+
+		$('footer a').last().smoothScroll({offset: -250, speed: 50000});
 
 	});
 
@@ -50,6 +57,17 @@ $('#home').css('min-height', $(window).height());
 
 
 
+
+
+<script type="text/javascript">
+
+	$(document).ready(function() {
+
+		$('#home').css('min-height', $(window).height());
+
+	});
+
+</script>
 
 
 
@@ -139,7 +157,7 @@ $('#home').css('min-height', $(window).height());
 		<footer class="row">
 			<div class="twelvecol">
 				<span>&copy; COPYRIGHT 2012 | ANDREAS FREY SANG</span> 		
-				<a class="floatright" href="#homeid">
+				<a class="floatright" href="#home">
 				<img src="images/lebutton.svg">
 				</a>
 			</div>
