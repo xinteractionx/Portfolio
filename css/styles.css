@@ -213,8 +213,8 @@ p {
 }
 
 .work p {
-	font-size: 0.5rem;
-	line-height: 0.6rem;	
+	font-size: 0.45rem;
+	line-height: 0.55rem;	
 }
 
 .line {
@@ -246,6 +246,9 @@ p {
 	float: right;
 }
 
+#stage {
+	margin-top: 50px
+}
 
 /* ============================= */
 /* ! Layout for smallish version   */
@@ -361,6 +364,12 @@ p {
 		display: inline-block;
 	}
 
+
+	footer {
+		padding-top: 15px;
+		font-family: bariol_regularregular;
+		font-size: 17px
+	}
 }
 
 
