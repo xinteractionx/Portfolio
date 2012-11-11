@@ -6,3 +6,15 @@
 	min-height: 600px;
 }
 
+.galleria-info-link {
+	display: none;
+}
+
+.galleria-thumbnails .galleria-image{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	border-radius: 50%;
+	background-color: red;
+	border-style: none;
+}

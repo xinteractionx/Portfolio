@@ -79,7 +79,8 @@ BEHANCEAPP.views.Stage = Backbone.View.extend({
 		if (item.get('images').length > 0) {
 			Galleria.configure({
 				idleMode: false,
-			    lightbox: true
+			    lightbox: true,
+		        thumbnails: "empty"
 			});
 			Galleria.run('#galleria');
 		}
