@@ -213,8 +213,8 @@ p {
 }
 
 .work p {
-	font-size: 0.45rem;
-	line-height: 0.55rem;	
+	font-size: 0.5rem;
+	line-height: 0.6rem;	
 }
 
 .line {
@@ -246,9 +246,6 @@ p {
 	float: right;
 }
 
-#stage {
-	margin-top: 50px
-}
 
 /* ============================= */
 /* ! Layout for smallish version   */
@@ -344,7 +341,7 @@ p {
 
 @media handheld, only screen and (max-width: 380px) {
 
-#mainnav li {
+	#mainnav li {
 		padding-top: 37px;
 		padding-left: 10px;
 		font-size: 27px;
@@ -364,12 +361,13 @@ p {
 		display: inline-block;
 	}
 
-
-	footer {
-		padding-top: 15px;
+		footer {
+		padding-top: 19px;
 		font-family: bariol_regularregular;
-		font-size: 17px
+		font-size: 14px
 	}
+
+
 }
 
 

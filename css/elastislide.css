@@ -15,7 +15,6 @@
 
 .elastislide-wrapper {
 	position: relative;
-	background-color: #fff;
 	margin: 0 auto;
 	min-height: 60px;
 	box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
@@ -28,7 +27,6 @@
 }
 
 .elastislide-horizontal {
-	padding: 10px 40px;
 }
 
 .elastislide-vertical {
@@ -59,7 +57,7 @@
 }
 
 .elastislide-carousel ul li {
-	margin: 0;
+	margin-right: 20px;
 	-webkit-backface-visibility: hidden;
 }
 
@@ -79,7 +77,6 @@
 
 .elastislide-carousel ul li a img {
 	display: block;
-	border: 2px solid white;
 	max-width: 100%;
 }
 
@@ -87,17 +84,16 @@
 
 .elastislide-wrapper nav span {
 	position: absolute;
-	background: #ddd url(../images/nav.png) no-repeat 4px 3px;
+	background: #fff url(../images/nav.png) no-repeat 4px 3px;
 	width: 23px;
 	height: 23px;
 	border-radius: 50%;
 	text-indent: -9000px;
 	cursor: pointer;
-	opacity: 0.8;
 }
 
 .elastislide-wrapper nav span:hover {
-	opacity: 1.0
+	background-color: red;
 }
 
 .elastislide-horizontal nav span {
